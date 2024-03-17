@@ -1,0 +1,40 @@
+body {
+  background-color: #AB8;
+}
+.box {
+  background-color: #FFF;
+  width: 500px;
+  height: 420px;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.inside_box1{
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 180px;
+}
+.inside_box2{
+  margin-left: 80px;
+}
+.img {
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.box2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.coins{
+  margin-left: 190px;
+}
+.buy{
+  background-color: #66ff33;
+  margin-right: 190px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 20px;
+}
